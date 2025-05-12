@@ -1,0 +1,37 @@
+thistheessence-group-backend/
+├── server.js
+├── .env
+├── package.json
+│
+├── config/
+│   └── db.js
+│
+├── models/
+│   ├── User.js
+│   ├── Farm.js
+│   ├── Pads.js
+│   ├── Events.js
+│   ├── SmartKibanda.js
+│   └── ThisTheApp.js
+│
+├── routes/
+│   ├── authRoutes.js
+│   ├── farmRoutes.js
+│   ├── padsRoutes.js
+│   ├── eventsRoutes.js
+│   ├── kibandaRoutes.js
+│   └── appRoutes.js
+│
+├── controllers/
+│   ├── authController.js
+│   ├── farmController.js
+│   ├── padsController.js
+│   ├── eventsController.js
+│   ├── kibandaController.js
+│   └── appController.js
+│
+├── middleware/
+│   └── authMiddleware.js
+│
+└── utils/
+    └── logger.js
